@@ -8,7 +8,7 @@ print(Path("x/y/z.txt"))
 package_name = "deepClassifier"
 
 list_of_files = [
-    ".github/workflows/.gitkeep"
+    ".github/workflows/.gitkeep",
     f"src/{package_name}/components/__init__.py",
     f"src/{package_name}/__init__.py",
     f"src/{package_name}/utils/__init__.py",
@@ -16,6 +16,9 @@ list_of_files = [
     f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
+    "tests/__init__.py",
+    "tests/integration/__init__.py",
+    "tests/unit/__init__.py",
     "configs/config.yaml",
     "dvc.yaml",
     "params.yaml",
